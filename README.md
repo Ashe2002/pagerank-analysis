@@ -33,16 +33,16 @@ model.
 Given a suitable transition matrix \(P\), PageRank seeks a probability vector
 \(r\) satisfying
 
-\[
+$$
 r = Pr.
-\]
+$$
 
 With damping parameter \(\alpha\) and \(n\) pages, the Google matrix can be
 written as
 
-\[
+$$
 G = \alpha P + (1-\alpha)\frac{1}{n}\mathbf{1}\mathbf{1}^{T}.
-\]
+$$
 
 The PageRank vector is then the stationary distribution of \(G\).
 
